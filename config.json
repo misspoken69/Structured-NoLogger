@@ -1,0 +1,11 @@
+{
+  "token": "YOUR TOKEN HERE",
+  "prefix":"x",
+  "password":"YOUR PASSWORD HERE",
+
+  "tts_language":"en",
+  "nitro_sniper":true,
+
+  "stream_url":"https://twitch.tv/kysmisspoken",
+  "giveaway_sniper":true
+}
